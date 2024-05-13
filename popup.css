@@ -1,0 +1,80 @@
+:root{
+  background-color: #000;
+}
+ .container {
+  width: 280px;
+  color: #fff;
+}
+
+.title {
+  font-size: 18px;
+  padding: 8px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  /* font-style: italic; */
+}
+
+.textbox {
+  width: 100%;
+  font-size: 12px;
+  margin: 0;
+  padding: 0px 2px;
+}
+
+.textbox:focus {
+  outline: 0;
+  border-color: #66afe9;
+}
+
+.bookmarks {
+  margin: 5px 5px;
+  padding: 3px;
+}
+
+.bookmark {
+  display: flex;
+  border-bottom-color: #050505;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-radius: 0.8rem;
+  padding: 7px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  color: #fff !important;
+  background-color: rgb(51, 51, 50)!important;
+  animation: fadeIn 1s ease forwards;
+  box-shadow: rgba(255, 255, 255, 0.574) 0px 2px 5px 0px;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.bookmark-title {
+  padding-left: 2px;
+}
+
+.bookmark-controls img {
+  margin: auto 4px;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  /* background-color: rgb(51, 51, 50); */
+  /* padding-top: 5px ; */
+  /* color: #fff; */
+}
+.bookmark-controls {
+  background-color: rgb(51, 51, 50) !important;
+  flex: auto;
+  text-align: right;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
