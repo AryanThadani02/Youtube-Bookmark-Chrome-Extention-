@@ -41,8 +41,6 @@ If the extension is used on a page that is not a YouTube video page, it will dis
 - HTML
 - CSS
 
-## Screenshots
-
 ## Project Contributors
 
 Aryan Thadani
